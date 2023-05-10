@@ -11,7 +11,7 @@ object WorkingWithFlatMap extends App {
     num1.flatMap { num1 =>
       num2.flatMap { num2 =>
         num3.map { num3 =>
-          (num1 + num2 + num3)
+          num1 + num2 + num3
         }
       }
     }
